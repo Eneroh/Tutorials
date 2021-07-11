@@ -1,0 +1,19 @@
+How to install JES on Arch Linux based system
+
+Step 1: Update system using sudo pacman -Syu or yay /whatever command
+Step 2: Install the following using sudo pacman -S ant, jre7openjdk-headless
+Step 3: Go to https://github.com/gatech-csl/jes/releases/tag/5.020 (location for relevant version of JES 5.020)
+Step 4: Install tar.gz variant
+Step 5: Using whichever method preferrable extract/unpack zip (typical command tar -xvzf tar.gz filename
+Step 6: Run the jes.sh script, to run jes.sh script use terminal, cd into terminal or execute script immediately. I typically cd ~/jes-5.020-linux, followed by either sh jes.sh or ./jes.sh (these two commands do the exact same thing, which is initate the shell script)
+Step 7: Dinner is served :P
+
+Congratulations, you have installed jes-5.020-linux successfully, as well as run a script, unpacked a tar.gz folder, installed something from the aur, github etc. etc.
+
+Be warned:
+
+The version of java that was installed is java 7 and not 6 which is required for jes 5.020 but should not have any issues before java 7 is really close to 6 I guess?
+
+The script will not initate correctly if you install openjdk 13 (the latest version of java development kit/ JDK)
+
+NL
