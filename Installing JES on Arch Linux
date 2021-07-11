@@ -16,4 +16,4 @@ The version of java that was installed is java 7 and not 6 which is required for
 
 The script will not initate correctly if you install openjdk 13 (the latest version of java development kit/ JDK)
 
-NL
+~en
